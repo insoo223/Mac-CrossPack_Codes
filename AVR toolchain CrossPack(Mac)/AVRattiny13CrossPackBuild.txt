@@ -1,0 +1,10 @@
+cd "/Users/insoo/Google Drive/Coding/Ard/AVR/DemoTiny13A/firmware"
+cd "/Users/insoo/Google Drive/Coding/Ard/AVR/Demo328p/firmware"
+
+avrdude -c usbtiny -P usb -p attiny13 -U flash:w:main.hex:i
+avrdude -c usbtiny -P usb -p atmega328p -U flash:w:main.hex:i
+
+avrdude -c usbtiny -P usb -p attiny13 -U flash:w:RF_PCint_CD4021.hex:i
+
+https://www.youtube.com/watch?v=nRVGfcDlbsg
+(계속) WPC_PB:자작 적외선 센서 모듈 코딩. 자율 주행 시험.
